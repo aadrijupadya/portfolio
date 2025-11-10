@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects · Aadriju Padya</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav-container">
+        <a class="brand" href="/index.html">Aadriju Padya</a>
+        <button class="menu-toggle" aria-label="Toggle navigation">
+          &#9776;
+        </button>
+        <nav>
+          <ul class="nav-links">
+            <li><a data-page="index.html" href="/index.html">Home</a></li>
+            <li><a data-page="about.html" href="/about.html">About</a></li>
+            <li><a data-page="courses.html" href="/courses.html">Courses</a></li>
+            <li><a data-page="projects.html" href="/projects.html">Projects</a></li>
+            <li><a class="cta-link" href="mailto:aadriju.padya@gmail.com">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-copy">
+          <span class="pill">Projects</span>
+          <h1>Case studies that blend strong engineering with thoughtful storytelling.</h1>
+          <p>
+            Every project below taught me new patterns, sharpened my empathy for users, and
+            reinforced the value of clean, measurable outcomes. Most have public repos or
+            write-ups—reach out if you want a deeper dive.
+          </p>
+        </div>
+        <div class="hero-card">
+          <div class="hero-stat">
+            <span>05+</span>
+            <span>Full-stack products deployed to real users.</span>
+          </div>
+          <div class="hero-stat">
+            <span>3x</span>
+            <span>Hackathon wins focused on community impact.</span>
+          </div>
+          <div class="hero-stat">
+            <span>Documented</span>
+            <span>Readable codebases with tests, CI, and deployment guides.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section id="geo-ci">
+        <span class="pill">Featured</span>
+        <h2>Geo/CI Intelligence Dashboard</h2>
+        <p>
+          A full-stack platform synthesizing competitive intelligence across search engines
+          with automated analysis, alerting, and exports. Built during a summer internship
+          to help go-to-market teams act on real-time insights.
+        </p>
+        <div class="cards-grid">
+          <article class="card project-card">
+            <h3>Problem</h3>
+            <p>
+              Manual research across disparate AI engines was slow, opaque, and hard to
+              compare over time.
+            </p>
+          </article>
+          <article class="card project-card">
+            <h3>Solution</h3>
+            <p>
+              Pipeline with FastAPI, RQ workers, and Postgres storing runs, answers,
+              citations, and cost analytics.
+            </p>
+          </article>
+          <article class="card project-card">
+            <h3>Impact</h3>
+            <p>
+              Delivered automated reports and daily metrics dashboards, boosting team
+              productivity by 40%.
+            </p>
+          </article>
+        </div>
+        <div class="project-meta">
+          <span>TypeScript</span>
+          <span>React</span>
+          <span>FastAPI</span>
+          <span>Postgres</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="mailto:aadriju.padya@gmail.com">Request demo</a>
+        </div>
+      </section>
+
+      <section id="course-compass">
+        <span class="pill">Analytics</span>
+        <h2>Course Compass</h2>
+        <p>
+          A recommendation engine that helps CS students plan semesters with confidence.
+          Combines degree requirements, historical outcomes, and schedule constraints to
+          surface personalized roadmaps.
+        </p>
+        <div class="cards-grid">
+          <article class="card project-card">
+            <h3>Highlights</h3>
+            <p>
+              Built curriculum graph with NetworkX, implemented constraint solver, and
+              shipped frontend with Svelte for interactivity.
+            </p>
+            <div class="project-meta">
+              <span>Python</span>
+              <span>Svelte</span>
+              <span>SQLite</span>
+            </div>
+          </article>
+          <article class="card project-card">
+            <h3>Results</h3>
+            <p>
+              Piloted with 30 students; 90% reported better clarity on graduation paths.
+            </p>
+          </article>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://aadriju.dev/course-compass" target="_blank" rel="noreferrer"
+            >Live demo</a
+          >
+        </div>
+      </section>
+
+      <section id="labops">
+        <span class="pill">Automation</span>
+        <h2>LabOps Automation Toolkit</h2>
+        <p>
+          A suite of services and dashboards deployed in a hardware lab to automate test
+          scheduling, telemetry capture, and alerting for device failures.
+        </p>
+        <div class="cards-grid">
+          <article class="card project-card">
+            <h3>Engineering</h3>
+            <p>
+              Go microservices orchestrated via Docker, ingesting metrics into Redis and
+              visualizing in Grafana.
+            </p>
+          </article>
+          <article class="card project-card">
+            <h3>Ops</h3>
+            <p>
+              Authenticated control panel with audit logs, Slack alerts, and deployment
+              scripts.
+            </p>
+          </article>
+          <article class="card project-card">
+            <h3>Outcome</h3>
+            <p>
+              Cut manual lab coordination time by 60% while improving device coverage.
+            </p>
+          </article>
+        </div>
+        <div class="project-links">
+          <a href="mailto:aadriju.padya@gmail.com">Let’s chat</a>
+        </div>
+      </section>
+
+      <section>
+        <span class="pill">More</span>
+        <h2>Hackathons, collaborations, and experiments.</h2>
+        <div class="cards-grid">
+          <article class="card">
+            <h3>Impact Finder</h3>
+            <p>
+              NLP-powered tool that surfaces community volunteer opportunities aligned with
+              personal values.
+            </p>
+          </article>
+          <article class="card">
+            <h3>ShareSheet</h3>
+            <p>
+              Browser extension that syncs notes, highlights, and citations into Notion and
+              Obsidian.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Study Sprint</h3>
+            <p>
+              Pomodoro web app with accountability groups and weekly analytics dashboards.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Aadriju Padya. Crafted with a love for clean code.</p>
+      <div class="footer-nav">
+        <a href="/about.html">About</a>
+        <a href="/courses.html">Courses</a>
+        <a href="/projects.html">Projects</a>
+        <a href="mailto:aadriju.padya@gmail.com">Contact</a>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <script src="/assets/js/main.js" defer></script>
+  </body>
+</html>
+
