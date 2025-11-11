@@ -3,155 +3,119 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About · Aadriju Padya</title>
+    <title>Experience · Aadrij Upadya</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
   <body>
-    <header>
-      <div class="nav-container">
-        <a class="brand" href="/index.html">Aadriju Padya</a>
-        <button class="menu-toggle" aria-label="Toggle navigation">
-          &#9776;
+    <section class="page-header">
+      <div class="page-links">
+        <button class="theme-toggle" type="button" aria-label="Toggle theme">
+          <span class="icon-moon">☾</span>
         </button>
-        <nav>
-          <ul class="nav-links">
-            <li><a data-page="index.html" href="/index.html">Home</a></li>
-            <li><a data-page="about.html" href="/about.html">About</a></li>
-            <li><a data-page="courses.html" href="/courses.html">Courses</a></li>
-            <li><a data-page="projects.html" href="/projects.html">Projects</a></li>
-            <li><a class="cta-link" href="mailto:aadriju.padya@gmail.com">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
-    <section class="hero">
-      <div class="hero-content">
-        <div class="hero-copy">
-          <span class="pill">About me</span>
-          <h1>Engineer. Collaborator. Lifelong learner.</h1>
-          <p>
-            I’m a computer science student shaping my craft through projects, internships,
-            and communities that value impact and empathy. I thrive where product thinking,
-            technical depth, and user advocacy intersect.
-          </p>
-        </div>
-        <div class="hero-card">
-          <div class="hero-stat">
-            <span>03</span>
-            <span>Internships delivering production-grade software.</span>
-          </div>
-          <div class="hero-stat">
-            <span>∞</span>
-            <span>Curiosity for systems, tooling, and people-first experiences.</span>
-          </div>
-          <div class="hero-stat">
-            <span>Community</span>
-            <span>Teaching assistant, hackathon mentor, and open-source contributor.</span>
-          </div>
-        </div>
+        <a data-page="index.html" href="index.html">home</a>
+        <a data-page="about.html" href="about.html">experience</a>
+        <a data-page="courses.html" href="courses.html">courses</a>
+        <a data-page="skills.html" href="skills.html">skills</a>
+        <a data-page="projects.html" href="projects.html">projects</a>
+        <a data-page="contact" href="mailto:adrij2005@gmail.com">contact</a>
       </div>
     </section>
 
+    <!-- Hero intentionally removed -->
+
     <main>
       <section class="grid-2">
-        <div>
-          <span class="pill">Why I build</span>
-          <h2>Engineering has always been a team sport for me.</h2>
-          <p>
-            My journey started with tinkering: automating repetitive tasks, building
-            simple games, and cracking open APIs just to see what was possible. Today, I’m
-            focused on building resilient systems that center people—whether that’s
-            simplifying analytics for stakeholders, shipping delightful interfaces, or
-            architecting services that scale.
-          </p>
-          <p>
-            I love collaborating with designers, PMs, researchers, and engineers who care
-            deeply about quality. Expect me to ask thoughtful questions, sweat the details,
-            and document decisions so the next person can move faster.
-          </p>
-        </div>
-        <div>
-          <span class="pill">In the lab</span>
-          <ul class="list">
-            <li>
-              <span>Office hours regular</span>
-              <span class="tag">Mentor</span>
-            </li>
-            <li>
-              <span>Hackathon organizer</span>
-              <span class="tag">Builder</span>
-            </li>
-            <li>
-              <span>Social impact volunteer</span>
-              <span class="tag">Community</span>
-            </li>
-          </ul>
-        </div>
-      </section>
-
+    
       <section>
-        <span class="pill">Experience timeline</span>
-        <h2>Learning by shipping real products.</h2>
+        <h2>Work Experience</h2>
         <div class="timeline">
           <div class="timeline-item">
-            <h3>Software Engineering Intern · Geo/CI Insights</h3>
-            <span>Summer 2024</span>
-            <p>
-              Built a competitor intelligence dashboard with automated LLM pipelines,
-              saving research teams 15+ hours weekly.
-            </p>
+            <div class="timeline-item-header">
+              <div class="timeline-logo">
+                <img src="assets/img/c1_logo.jpg" alt="Capital One logo" />
+              </div>
+              <div>
+                <h3>Incoming Software Engineering Intern · Capital One</h3>
+                <div class="timeline-meta">
+                  <span>Summer 2026</span>
+                  <span>Mclean, VA · On-site</span>
+                </div>
+              </div>
+            </div>
+            <ul class="timeline-points">
+             
+            </ul>
           </div>
           <div class="timeline-item">
-            <h3>Teaching Assistant · Algorithms & Data Structures</h3>
-            <span>Fall 2023 – Spring 2024</span>
-            <p>
-              Led weekly sections, wrote practice problems, and supported 120+ students in
-              mastering algorithmic thinking.
-            </p>
+            <div class="timeline-item-header">
+              <div class="timeline-logo">
+                <img src="assets/img/extreme_logo.jpg" alt="Extreme Networks logo" />
+              </div>
+              <div>
+                <h3>Software Engineering Intern · Extreme Networks</h3>
+                <div class="timeline-meta">
+                  <span>Jun 2025 - Sep 2025</span>
+                  <span>San Jose, CA · Hybrid</span>
+                </div>
+              </div>
+            </div>
+            <ul class="timeline-points">
+              <li>Built LangChain-powered AI agent (RAG + MCP) automating SEO audits and improving LLM search ranking by 20%.</li>
+              <li>Shipped analytics dashboard (FastAPI · React · Postgres · Docker) cutting reporting time from 3 hours to 5 minutes.</li>
+              <li>Led cross-team LLM alignment, boosting page traffic 25% and content performance across three GenAI platforms.</li>
+            </ul>
           </div>
           <div class="timeline-item">
-            <h3>Research Fellow · Human-AI Collaboration Lab</h3>
-            <span>2023</span>
-            <p>
-              Prototyped quote summarization tools that helped customer support teams
-              triage issues faster while retaining empathy.
-            </p>
+            <div class="timeline-item-header">
+              <div class="timeline-logo">
+                <img src="assets/img/flux_logo.jpeg" alt="Flux UCLA logo" />
+              </div>
+              <div>
+                <h3>Founding Engineer · Flux</h3>
+                <div class="timeline-meta">
+                  <span>Mar 2025 - May 2025</span>
+                  <span>Los Angeles, CA · UCLA</span>
+                </div>
+              </div>
+            </div>
+            <ul class="timeline-points">
+              <li>Built full-stack MVP in <b>React Native + Expo</b> for 100+ beta users, streamlining onboarding and navigation by <b>20%</b>.</li>
+              <li>Integrated <b>ATP Protocol API</b> with <b>TypeScript</b> and local caching (<b>SQLite + PostgreSQL</b>) to speed content retrieval <b>30%</b>.</li>
+              <li>Collaborated in an <b>Agile</b> startup environment, preparing the product for <b>VC</b> and UCLA accelerator funding.</li>              
+            </ul>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-item-header">
+              <div class="timeline-logo">
+                <img src="assets/img/purdue_logo.webp" alt="Purdue Lab logo" />
+              </div>
+              <div>
+                <h3>Research Fellow · iCAN Lab @ Purdue University</h3>
+                <div class="timeline-meta">
+                  <span>Jun 2023 - Dec 2023</span>
+                  <span>West Lafayette, CA · Purdue University</span>
+                </div>
+              </div>
+            </div>
+            <ul class="timeline-points">
+              <li>Built distributed DL pipelines for <b>action recognition on 10M+ videos</b>, achieving a <b>2.3× speed-up</b> with <b>CUDA</b> and <b>Apache Spark</b>.</li>
+              <li>Developed a <b>C++/Python</b> framework integrating <b>MoViNet</b> for video understanding, cutting network communication by <b>95%</b>.</li>
+              <li>Presented findings at the <b>CRISP Symposium</b> and co-authored a paper submitted to <b>ACM MobiSys</b>.</li>
+              </ul>
           </div>
         </div>
       </section>
 
-      <section>
-        <span class="pill">Beyond the code</span>
-        <h2>Design, storytelling, and building communities.</h2>
-        <p>
-          Outside of class, I host design critique circles, mentor early-career students,
-          and contribute to open-source accessibility tooling. I believe in making tech
-          more inclusive and share what I learn through talks, writing, and office hours.
-        </p>
-      </section>
+     
     </main>
 
-    <footer class="footer">
-      <p>© <span id="year"></span> Aadriju Padya. Crafted with a love for clean code.</p>
-      <div class="footer-nav">
-        <a href="/about.html">About</a>
-        <a href="/courses.html">Courses</a>
-        <a href="/projects.html">Projects</a>
-        <a href="mailto:aadriju.padya@gmail.com">Contact</a>
-      </div>
-    </footer>
-
-    <script>
-      document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
-    <script src="/assets/js/main.js" defer></script>
+    <script src="./assets/js/main.js" defer></script>
   </body>
 </html>
 

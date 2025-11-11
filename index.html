@@ -3,69 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aadriju Padya · Portfolio</title>
+    <title>Aadrij Upadya · Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
   <body>
-    <header>
-      <div class="nav-container">
-        <a class="brand" href="/index.html">Aadriju Padya</a>
-        <button class="menu-toggle" aria-label="Toggle navigation">
-          &#9776;
+    <section class="page-header">
+      <div class="page-links">
+        <button class="theme-toggle" type="button" aria-label="Toggle theme">
+          <span class="icon-moon">☾</span>
         </button>
-        <nav>
-          <ul class="nav-links">
-            <li><a data-page="index.html" href="/index.html">Home</a></li>
-            <li><a data-page="about.html" href="/about.html">About</a></li>
-            <li><a data-page="courses.html" href="/courses.html">Courses</a></li>
-            <li><a data-page="projects.html" href="/projects.html">Projects</a></li>
-            <li><a class="cta-link" href="mailto:aadriju.padya@gmail.com">Contact</a></li>
-          </ul>
-        </nav>
+        <a data-page="index.html" href="index.html">home</a>
+        <a data-page="about.html" href="about.html">experience</a>
+        <a data-page="courses.html" href="courses.html">courses</a>
+        <a data-page="skills.html" href="skills.html">skills</a>
+        <a data-page="projects.html" href="projects.html">projects</a>
+        <a data-page="contact" href="mailto:adrij2005@gmail.com">contact</a>
       </div>
-    </header>
+    </section>
 
     <section class="hero">
       <div class="hero-content">
         <div class="hero-copy">
-          <span class="pill">Computer Science Student</span>
           <h1>
-            Building human-centered software with clean architecture and curiosity.
+            Hi, I'm Aadrij!
           </h1>
           <p>
-            I’m a CS student focused on full-stack development, data-driven systems, and
-            thoughtful user experiences. Explore my work, discover the courses that shape
-            my perspective, and see how I turn ideas into reliable products.
+            I’m a sophomore at UCLA studying Computer Science. I'm interested in full-stack development and data-driven systems. In the past, I've dabbled with research, startups, and industry projects. I'm currently working on building a library that interfaces with the motor controllers of UCLA's
+            <a class="link-external" href="https://baja304.wixsite.com/bruin-racing-baja" target="_blank" rel="noreferrer">Baja Racing</a>
+            team and constructing helpful AI agents for
+            <a class="link-external" href="https://www.extremenetworks.com/" target="_blank" rel="noreferrer">Extreme Networks</a>. Outside of work, I'm a huge fan of sports (NFL, NBA, F1), am currently reading <i>Good Economics for Hard Times</i>, watching <i>Succession</i>, and love exploring the outdoors.
           </p>
-          <div class="hero-actions">
-            <a class="button primary" href="/projects.html">View Projects</a>
-            <a class="button" href="/about.html">Learn About Me</a>
+          <div class="hero-links">
+            <a href="mailto:adrij2005@gmail.com">email</a>
+            <span>/</span>
+            <a class="link-external" href="https://www.linkedin.com/in/aadriju/" target="_blank" rel="noreferrer">linkedin</a>
+            <span>/</span>
+            <a class="link-external" href="https://github.com/aadrijupadya" target="_blank" rel="noreferrer">github</a>
+            <span>/</span>
+            <a class="link-external" href="https://drive.google.com/file/d/1PDt1uqo2tKJhTk0i1llwNdMhaHS9IxFd/view?usp=sharing" target="_blank" rel="noreferrer">resume</a>
           </div>
         </div>
-        <div class="hero-card">
-          <div class="hero-stat">
-            <span>05+</span>
-            <span>End-to-end projects spanning web, data, and AI tooling.</span>
-          </div>
-          <div class="hero-stat">
-            <span>CS @ ???</span>
-            <span>Coursework across algorithms, systems, and product engineering.</span>
-          </div>
-          <div class="hero-stat">
-            <span>100%</span>
-            <span>Commitment to shipping maintainable, documented software.</span>
-          </div>
-        </div>
+        <!--  -->
       </div>
     </section>
 
-    <main>
+    <!-- <main>
       <section>
         <span class="pill">What I do</span>
         <h2>Product-minded engineering for real-world problems.</h2>
@@ -119,7 +107,7 @@
               <span>Postgres</span>
             </div>
             <div class="project-links">
-              <a href="/projects.html#geo-ci">Case study</a>
+              <a href="projects.html#geo-ci">Case study</a>
             </div>
           </article>
           <article class="card project-card">
@@ -134,7 +122,7 @@
               <span>Flask</span>
             </div>
             <div class="project-links">
-              <a href="/projects.html#course-compass">Case study</a>
+              <a href="projects.html#course-compass">Case study</a>
             </div>
           </article>
           <article class="card project-card">
@@ -149,7 +137,7 @@
               <span>Redis</span>
             </div>
             <div class="project-links">
-              <a href="/projects.html#labops">Case study</a>
+              <a href="projects.html#labops">Case study</a>
             </div>
           </article>
         </div>
@@ -163,7 +151,7 @@
           or research opportunities. Drop a note and I’ll reach out quickly.
         </p>
         <div class="hero-actions">
-          <a class="button primary" href="mailto:aadriju.padya@gmail.com">Email me</a>
+          <a class="button primary" href="mailto:adrij2005@gmail.com">Email me</a>
           <a class="button" href="https://www.linkedin.com/" target="_blank" rel="noreferrer"
             >LinkedIn</a
           >
@@ -172,22 +160,9 @@
           >
         </div>
       </section>
-    </main>
+    </main> -->
 
-    <footer class="footer">
-      <p>© <span id="year"></span> Aadriju Padya. Crafted with a love for clean code.</p>
-      <div class="footer-nav">
-        <a href="/about.html">About</a>
-        <a href="/courses.html">Courses</a>
-        <a href="/projects.html">Projects</a>
-        <a href="mailto:aadriju.padya@gmail.com">Contact</a>
-      </div>
-    </footer>
-
-    <script>
-      document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
-    <script src="/assets/js/main.js" defer></script>
+    <script src="./assets/js/main.js" defer></script>
   </body>
 </html>
 
